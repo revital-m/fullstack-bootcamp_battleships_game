@@ -1,1 +1,32 @@
+.container {
+  display: flex;
+}
 
+.grid-user,
+.grid-computer {
+  width: 40rem;
+  height: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.grid-user {
+  background-color: blue;
+}
+
+.grid-computer {
+  background-color: lightgreen;
+}
+
+.grid div {
+  width: 4rem;
+  height: 4rem;
+}
+
+.grid-display {
+  width: 40rem;
+  height: 40rem;
+  margin: 2rem;
+  background-color: yellow;
+}

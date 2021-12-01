@@ -30,3 +30,43 @@
   margin: 2rem;
   background-color: yellow;
 }
+
+.ship div {
+  width: 4rem;
+  height: 4rem;
+}
+
+.destroyer-container,
+.submarine-container,
+.cruiser-container,
+.battleship-container,
+.carrier-container {
+  height: 4rem;
+  margin: 1rem;
+  display: flex;
+}
+
+.destroyer-container {
+  width: 8rem;
+  background-color: orange;
+}
+
+.submarine-container {
+  width: 12rem;
+  background-color: pink;
+}
+
+.cruiser-container {
+  width: 12rem;
+  background-color: purple;
+}
+
+.battleship-container {
+  width: 16rem;
+  background-color: aqua;
+}
+
+.carrier-container {
+  width: 20rem;
+  background-color: green;
+}
